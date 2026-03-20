@@ -78,7 +78,7 @@ self.addEventListener('periodicsync', e => {
 async function backgroundScan() {
   // Proxy'e ping at, sinyal varsa bildirim gönder
   try {
-    const r = await fetch('https://bist-price-proxy.onrender.com/health');
+    const r = await fetch('https://v6backend.onrender.com/health');
     if (r.ok) {
       // Proxy çalışıyorsa scheduler zaten hallediyor
       console.log('[SW] Proxy alive, scheduler handles scanning');
