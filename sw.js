@@ -1,7 +1,7 @@
 // BIST AI Scanner - Service Worker
 // Uygulama kapalıyken push bildirimi alır
 
-const CACHE_NAME = 'bist-ai-v6';
+const CACHE_NAME = 'v6';
 const STATIC = ['/', '/index.html'];
 
 // ── Kurulum ──────────────────────────────────────
